@@ -1,0 +1,132 @@
+#logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    align-items: start;
+    margin-top: 0px;
+}
+
+
+
+
+
+#upper{
+    background-color: black;
+    width: 1500px;
+    height: 400px;
+    background-image: url("black-background-with-keypad-keys-top-black-background_270292-1168.avif");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    justify-content: center; 
+    align-items: center;
+    
+    
+}
+#lower{
+    background-color: rgb(188, 188, 199);
+    width: 1500px;
+    height: 300px;
+    display: flex;
+}
+#box1{
+    height: 180px;
+    width: 210px;
+    background-color: rgba(3, 3, 2, 0.945);
+    display: flex;
+    flex-direction: row;
+    margin-right: 80px;
+    margin-top: 70px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    border: 4px solid black;
+}
+#box2{
+    height: 180px;
+    width: 210px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin-right: 80px;
+    margin-top: 70px;
+    border-radius: 30px;
+    background-color: #bd9068;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+}
+#box3{
+    height: 180px;
+    width: 210px;
+    background-color: white;
+    display: flex;
+    margin-top: 70px;
+    border-radius: 30px;
+    background-color: #557C56;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+   
+}
+
+#searchbox {
+    width: 300px; /* Adjust the width of the text box */
+    height: 40px; /* Adjust the height */
+    border: 3px solid #201f1f; /* Border color */
+    border-radius: 20px; /* Rounded edges */
+    padding: 0 15px; /* Padding inside the text box */
+    font-size: 16px; /* Font size */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for better aesthetics */
+    outline: none; /* Remove the blue border on focus */
+    transition: all 0.3s ease; /* Smooth transition for hover/focus effects */
+    text-wrap: wrap;
+    background-color: white;
+    margin: 100px;
+    margin-left: 600px;
+    margin-top: 200px;
+    margin-right: 0px;
+}
+
+/* Optional hover/focus effects */
+#searchbox:hover {
+    border-color: #888; /* Change border color on hover */
+}
+   
+#button{
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    color: #201f1f;
+    width: 60px;
+    height: 40px;
+    border: 3px solid black;
+    margin-left: 0px;
+    transition: all 0.3s ease;
+}
+#button:hover {
+    border-color: #888; /* Change border color on hover */
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RRA</title>
+    <link rel="stylesheet" href="StyleX.css">
+    <link rel="icon" type="image/jpeg" href="logo.jpg">
+
+    
+</head>
+<body>
+   <div class="main">
+    <div id="upper">
+      <!-- <img src="C:\Users\hp\Desktop\My Website\Arbab logo.jpg" alt="Arbab logo"  id="logo"> -->
+    <input type="text " id="searchbox" placeholder="Search with RRA">
+    <button id="button" onclick="Dothis()"><strong>&#8594;</strong></button>
+    </div>
+    <div id="lower">
+
+
+       <div id="box1">
+      <a href="https://www.instagram.com/rajaarbabnaqeeb"> Arbab Naqeeb</a> 
+       </div>
+       
+       <div id="box2">
+         <a href="https://cloud.google.com/learn/what-is-artificial-intelligence"> Artificial Intelligence</a> 
+       </div>
+
+       <div id="box3">
+       <a href="https://nutech.edu.pk"> NUTECH</a> 
+       </div>
+
+
+    </div>
+   </div> 
+   <script>
+      function Dothis(){
+         const inputuser=document.getElementById("searchbox").value.trim();
+         if(inputuser==="Raja Arbab Naqeeb"){
+            window.open("https://www.instagram.com/rajaarbabnaqeeb");
+         }
+         else if(inputuser==="G wagon "){
+            window.open("https://www.mbusa.com/en/vehicles/class/g-class/suv");
+         }
+         else{
+            window.open("https://www.google.com");
+         }
+      }
+   </script>
+</body>
+</html>
